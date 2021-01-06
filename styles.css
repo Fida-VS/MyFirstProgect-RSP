@@ -1,0 +1,115 @@
+body {
+    box-sizing: border-box;
+    background: #937e3f;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    height: 800px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    margin: 50px auto;
+    background: #bfa969;
+}
+
+.logo {
+    position: absolute;
+    width: 96px;
+    height: 96px;
+    margin-top: 217px;
+    margin-left: 455px;
+    transform: rotate(-15deg);
+}
+
+.result {
+width: 800px;
+height: 130px;
+margin: 30px auto 50px;
+border-radius: 10px;
+text-align: center;
+border: 2px solid #141414;
+background: linear-gradient(to bottom, #736e5e, #63735e);
+}
+
+.result p {
+    font-family: 'Hanalei Fill', cursive;
+    background: linear-gradient(to bottom, #335926 0%, #59cc33 47%, #59cc33 53%,  #335926 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #335926;
+    font-size: 6em;
+    margin: 0;
+    padding: 5px;
+}
+
+.health {
+    display: flex;
+    justify-content: space-around;
+    width: 600px;
+    height: 100px;
+    margin: 0 auto 50px;
+}
+
+.health-item {
+display: flex;
+align-items: center; 
+justify-content: center;   
+width: 100px;
+height: 100px;
+border-radius: 10px;
+background: #fff;
+background: url(images/Heart.png);
+background: url(images/Heart.png) no-repeat, radial-gradient(#ece5e3 0%, #ece5e3 20%, #a8a8a8 100%);
+border: 2px solid #141414;
+}
+
+.health .count {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.2em;
+    color: #fff;
+}
+
+.players {
+    display: flex;
+    justify-content: space-around;
+    width: 600px;
+    height: 200px;
+    margin: 0 auto 75px;
+}
+
+.player {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border: 2px solid #141414;
+    background: linear-gradient(to bottom, #736e5e, #63735e);
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    width: 600px;
+    height: 50px;
+    margin: 0 auto; 
+}
+
+.btn {
+width: 150px;    
+height: 50px;
+font-size: 1.5em;
+font-weight: bold;
+border-radius: 10px;
+background: #cb9685;
+}
+
+.btn:hover {
+color: #335926;
+background: #e5ab98;
+}
+
