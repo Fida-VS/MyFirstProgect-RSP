@@ -5,7 +5,7 @@ let userblock = document.getElementById('userblock');
 let compblock = document.getElementById('compblock');
 let buttons = document.querySelector('.buttons');
 let fileNames=["Stone.png","Scissors.png","Papper.png"];
-let path="/AptanaStudio3/Game/images/";
+let path="images/";
 let user = 5;
 let comp = 5;
 let myrand;
